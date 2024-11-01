@@ -1,0 +1,11 @@
+# Ignore specific Terraform files at the root of the repository
+backend.tf
+providers.tf
+
+# Ignore specific Terraform files in a folder
+# Azure_terraform_infra/backend.tf
+# Azure_terraform_infra/providers.tf
+
+
+
+.terraform/
